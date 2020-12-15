@@ -1,0 +1,23 @@
+{
+  "name": "@xiaoqingyu/mono",
+  "version": "0.0.6",
+  "license": "MIT",
+  "author": "xiaoqingyu",
+  "bin": {
+    "mono": "src/index.js"
+  },
+  "scripts": {
+    "relink": "yarn unlink && yarn link"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "execa": "^5.0.0",
+    "inquirer": "^7.3.3",
+    "javascript-stringify": "^2.0.1",
+    "which": "^2.0.2"
+  }
+}

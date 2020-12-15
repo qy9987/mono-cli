@@ -1,0 +1,13 @@
+{
+  "name": "template",
+  "workspaces": [ 
+     "packages/*"
+  ],
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

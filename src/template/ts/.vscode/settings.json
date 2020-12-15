@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": false,
+  "files.autoSave": "off",
+  "eslint.options": {
+    "extensions":[
+      ".js",
+      ".vue",
+      ".ts",
+    ]
+   },
+  "eslint.validate": [
+    "typescript",
+    "vue",
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "eslint.run": "onSave",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  }
+}
